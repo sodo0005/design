@@ -2,7 +2,7 @@
 Logo: image/logo_size.jpg
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till mitt design repo.
+      url: https://github.com/sodo0005/design
       icon: github
 ---

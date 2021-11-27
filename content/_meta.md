@@ -1,5 +1,5 @@
 ---
-Logo: image/logo_size.jpg
+Logo: image/logo_size.png
 Tagline: My portfolio.
 Social:
     - title: Länk till mitt design repo.

@@ -1,7 +1,3 @@
-body {
-    background-color: white;
-}
-
 
 * {
     box-sizing: border-box;
@@ -20,70 +16,6 @@ ol, ul {
 
 html, body {
     height: 100%;
-}
-
-/* Placement */
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-.main {
-    flex: 1 0 auto;
-}
-
-.header, .footer {
-    flex: 0 0 auto;
-}
-
-/* Header */
-
-.header, .site-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Title */
-
-.title, .logo {
-    padding: 3em 3em 3em 0;
-}
-
-@media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
-    }
-    .logo {
-        max-width: 30%;
-    }
-}
-
-.title * {
-    color: #111;
-}
-
-.title p {
-    font-style: italic;
-}
-
-/* Footer */
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #222;
-}
-
-.footer a {
-    color: #222;
-}
-
-.footer .social {
-    font-size: 2rem;
 }
 
 /* Typografy */

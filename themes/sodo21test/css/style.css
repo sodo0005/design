@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* Normalize */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -338,6 +340,10 @@ template {
   display: none;
 }
 
+/* Variables */
+/* Vertical Rythm */
+/* Fonts */
+/* External Modules */
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6452,43 +6458,78 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+/* Internal Modules (självskrivna moduler)*/
 body {
-  background-color: white;
+  font-family: "Raleway", sans-serif;
+  color: #333;
 }
 
-* {
-  box-sizing: border-box;
-  border: 0 none;
-  margin: 0;
-  padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
 }
 
-ol, ul {
-  padding-left: 1.5em;
+html {
+  font-size: 100%;
 }
 
-.hidden {
-  display: none !important;
+body {
+  line-height: 1.4;
 }
 
-html, body {
-  height: 100%;
+p {
+  font-size: 1em;
+  margin-bottom: 1.4em;
 }
 
-/* Placement */
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
+  background-color: #FFFFFF;
 }
 
 .main {
   flex: 1 0 auto;
+  width: 64em;
+  margin: 2em auto;
 }
 
 .header, .footer {
   flex: 0 0 auto;
 }
 
+img {
+  border-radius: 10%;
+  max-width: 100%;
+}
+
+@media (max-width: 1150px) {
+  img {
+    width: 50%;
+  }
+
+  .main {
+    width: 96%;
+  }
+}
+@media (max-width: 767px) {
+  img {
+    width: 50%;
+  }
+
+  .main {
+    width: 96%;
+  }
+}
 /* Header */
 .header, .site-header {
   display: flex;
@@ -6500,8 +6541,17 @@ body {
   padding: 3em 3em 3em 0;
 }
 
+.logo > a > img {
+  width: 256px;
+  max-width: 256px;
+}
+
+.title p {
+  font-style: italic;
+}
+
 @media (max-width: 767px) {
-  .title, .logo {
+  .title {
     padding: 1em 1em 1em 0;
   }
 
@@ -6510,96 +6560,25 @@ body {
   }
 
   .logo {
-    max-width: 30%;
+    display: none !important;
   }
 }
-.title * {
-  color: #111;
-}
-
-.title p {
-  font-style: italic;
-}
-
 /* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
+  background-color: #c3a098;
+  color: #f7f7f7;
 }
 
 .footer a {
   color: #222;
+  text-decoration: none;
 }
 
 .footer .social {
   font-size: 2rem;
 }
 
-/* Typografy */
-body {
-  font-family: sans-serif;
-  line-height: 1.5rem;
-  color: #444;
-}
-
-p, td, th, li, dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.6em;
-  font-weight: bold;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
-/* Code */
-code {
-  margin: 0 0.1em;
-  padding: 0.1em 0.2em;
-  border: 1px solid #ccc;
-  border-radius: 0.3em;
-  background: #f5f5f5;
-  font-family: monospace;
-  font-size: 0.85rem;
-  line-height: 1.9824;
-}
-
-pre {
-  padding: 0 1em;
-  border: 1px solid #ccc;
-  border-radius: 0.3em;
-  background: #f5f5f5;
-}
-
-pre code {
-  display: block;
-  margin: 0;
-  padding: 1.1111em 0;
-  border: 0 none;
-  background: transparent;
-  overflow-x: auto;
-  line-height: 1.4;
-}
-
-/* Blockquote */
-blockquote {
-  font-style: italic;
-  margin-left: 1em;
-  padding-left: 1em;
-  border-left: 0.5em solid #f5f5f5;
-}
-
-* {
-  font-family: "Raleway", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "open Sans", sans-serif;
-}
+/* Old css Style */

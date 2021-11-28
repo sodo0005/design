@@ -1,5 +1,13 @@
-
+/* Normalize */
 @import '../../node_modules/normalize.css/normalize';
+
+/* Variables */
+@import 'variables';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+/* External Modules */
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 
@@ -7,18 +15,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
-@import 'oldstyle';
 
-* {
-    font-family: 'Raleway', sans-serif;
-}
+/* Internal Modules (självskrivna moduler)*/
+@import 'typography';
+@import 'main';
+@import 'header';
+@import 'footer';
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'open Sans', sans-serif;
-}
+/* Old css Style */
+//@import 'oldstyle';

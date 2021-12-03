@@ -342,6 +342,7 @@ template {
 
 /* Variables */
 /* Vertical Rythm */
+/*hover link color*/
 /* Fonts */
 /* External Modules */
 /*!
@@ -6494,7 +6495,7 @@ p {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .main {
@@ -6503,41 +6504,21 @@ body {
   margin: 2em auto;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
-img {
-  border-radius: 10%;
-  max-width: 100%;
-}
-
-@media (max-width: 1150px) {
-  img {
-    width: 50%;
-  }
-
-  .main {
-    width: 96%;
-  }
-}
-@media (max-width: 767px) {
-  img {
-    width: 50%;
-  }
-
-  .main {
-    width: 96%;
-  }
-}
 /* Header */
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
 }
 
 /* Title */
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
 }
 
@@ -6563,6 +6544,10 @@ img {
     display: none !important;
   }
 }
+.hidden {
+  display: none !important;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -6581,4 +6566,119 @@ img {
   font-size: 2rem;
 }
 
+img {
+  border-radius: 10%;
+  max-width: 100%;
+}
+
+@media (max-width: 1150px) {
+  img {
+    width: 50%;
+  }
+
+  .main {
+    width: 96%;
+  }
+}
+@media (max-width: 767px) {
+  img {
+    width: 50%;
+  }
+
+  .main {
+    width: 96%;
+  }
+}
+/* Technologies CSS*/
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  padding: 0 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.tech-box.big {
+  grid-column: span 3;
+}
+
+.tech-box {
+  grid-column: span 1;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #d9d7f1;
+  background: linear-gradient(90deg, #d9d7f1 0%, #c3a098 51%);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.tech-box .arrow a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  background-color: #f6c58c;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.tech-box .arrow a:hover {
+  background-color: #b2e802;
+}
+
+@media (max-width: 767px) {
+  .landingpage h1,
+.tech-box,
+.tech-box.big {
+    grid-column: span 1;
+  }
+}
+/* Technology CSS */
+.sidebar h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+}
+
+.main-container .sidebar {
+  width: 40%;
+}
+
+.main-container .sidebar ul {
+  list-style-type: none;
+  margin: 1em;
+}
+
+.main-container .sidebar ul a {
+  text-decoration: none;
+  text-shadow: 1px 1px #7d7b7a;
+}
+
+.sidebar a:hover {
+  color: #f7a1e9;
+}
+
+.main-container .article {
+  margin-left: 20px;
+  width: auto;
+}
+
+@media (max-width: 767px) {
+  .main-container .sidebar {
+    display: none;
+  }
+}
 /* Old css Style */

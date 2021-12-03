@@ -14,29 +14,3 @@ body {
 .footer {
     flex: 0 0 auto;
 }
-
-img {
-    border-radius: 10%;
-    max-width: 100%;
-}
-
-@media (max-width: 1150px) {
-    img {
-        width: 50%;
-    }
-
-    .main {
-        width: 96%;
-    }
-}
-
-@media (max-width: 767px) {
-    img {
-
-        width: 50%;
-    }
-    
-    .main {
-        width: 96%;
-    }
-}

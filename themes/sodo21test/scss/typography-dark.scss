@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     color: $font-color;
+    font-weight: 350;
 }
 
 h1,
@@ -15,7 +16,11 @@ h6 {
 a {
     color: $font-color;
     text-decoration: none;
+}
 
+.nav a,
+.nav-toggle {
+    color: $font-color;
 }
 
 html {

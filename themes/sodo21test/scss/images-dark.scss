@@ -1,0 +1,29 @@
+.main img {
+    border-radius: 10%;
+    max-width: 100%;
+    filter: grayscale(50%) contrast(1.2);
+}
+
+
+
+
+@media (max-width: 1150px) {
+    img {
+        width: 50%;
+    }
+
+    .main {
+        width: 96%;
+    }
+}
+
+@media (max-width: 767px) {
+    img {
+
+        width: 50%;
+    }
+
+    .main {
+        width: 96%;
+    }
+}

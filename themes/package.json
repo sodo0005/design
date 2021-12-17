@@ -8,10 +8,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass sodo21test/scss/style.scss sodo21test/css/style.css --no-source-map",
-    "style-min": "sass sodo21test/scss/style.scss sodo21test/css/style.min.css --no-source-map --style compressed",
-    "watch": "sass sodo21test/scss/style.scss sodo21test/css/style.css --no-source-map --watch",
-    "watch-min": "sass sodo21test/scss/style.scss sodo21test/css/style.min.css --no-source-map --style compressed --watch"
+    "watch": "sass sodo21test/scss/style.scss:sodo21test/css/style.css sodo21test/scss/style-dark.scss:sodo21test/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass sodo21test/scss/style.scss:sodo21test/css/style.min.css sodo21test/scss/style-dark.scss:sodo21test/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass sodo21test/scss/style-dark.scss sodo21test/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass sodo21test/scss/style-dark.scss sodo21test/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass sodo21test/scss/style.scss sodo21test/css/style.css --no-source-map",
+    "style-light-min": "sass sodo21test/scss/style.scss sodo21test/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

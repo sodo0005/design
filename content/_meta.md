@@ -8,4 +8,10 @@ Social:
     - title: Länk till min facebook sida.
       url: https://www.facebook.com/sofiepoyo
       icon: fab fa-facebook
+    - title: Dark Mode
+      url: ?action=theme
+      icon: far fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-recycle
 ---

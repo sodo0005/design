@@ -1,0 +1,28 @@
+/* Normalize */
+@import '../../node_modules/normalize.css/normalize';
+
+/* Variables */
+@import 'variables-dark';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+/* External Modules */
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+/* Internal Modules (självskrivna moduler)*/
+@import 'typography-dark';
+@import 'main';
+@import 'header-dark';
+@import 'footer';
+@import 'images-dark';
+@import 'technologies-dark';
+
+/* Old css Style */
+//@import 'oldstyle';

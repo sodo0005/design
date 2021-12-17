@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     background: $box-color;
-    box-shadow: $box-shadow-color;
+    opacity: 70%;
 
 }
 
@@ -90,7 +90,7 @@
 }
 
 @media(max-width: 767px) {
-    .sidebar {
+    .main-container .sidebar {
         display: none;
     }
 }

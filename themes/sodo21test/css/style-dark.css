@@ -346,6 +346,7 @@ template {
 /* Hover link color*/
 /* Vertical Rythm */
 /* Fonts */
+/* Fonts */
 /* External Modules */
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -6464,7 +6465,8 @@ readers do not read off random characters that represent icons */
 /* Internal Modules (självskrivna moduler)*/
 body {
   font-family: "Raleway", sans-serif;
-  color: #9d8189;
+  color: #f8f8ff;
+  font-weight: 350;
 }
 
 h1,
@@ -6477,8 +6479,13 @@ h6 {
 }
 
 a {
-  color: #9d8189;
+  color: #f8f8ff;
   text-decoration: none;
+}
+
+.nav a,
+.nav-toggle {
+  color: #f8f8ff;
 }
 
 html {
@@ -6502,7 +6509,7 @@ p {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #272727;
 }
 
 .main {
@@ -6532,6 +6539,7 @@ body {
 .logo > a > img {
   width: 256px;
   max-width: 256px;
+  filter: invert(80%);
 }
 
 .title p {
@@ -6560,12 +6568,12 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
-  background-color: #f4acb7;
-  color: #fff;
+  background-color: #474747;
+  color: #f8f8ff;
 }
 
 .footer a {
-  color: #9d8189;
+  color: #f8f8ff;
   text-decoration: none;
 }
 
@@ -6573,9 +6581,10 @@ body {
   font-size: 2rem;
 }
 
-img {
+.main img {
   border-radius: 10%;
   max-width: 100%;
+  filter: grayscale(50%) contrast(1.2);
 }
 
 @media (max-width: 1150px) {
@@ -6618,8 +6627,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #ffcad4;
-  box-shadow: 12px 12px 2px 1px #9d8189;
+  background: #474747;
+  opacity: 70%;
 }
 
 .tech-box .arrow a {
@@ -6627,17 +6636,17 @@ img {
   font-size: 20px;
   text-align: center;
   font-weight: bolder;
-  color: #fff;
+  color: #f8f8ff;
   height: 30px;
   width: 30px;
-  background-color: #f4acb7;
+  background-color: #de83d0;
   border-radius: 50%;
   display: inline-block;
   border: 1px solid #000;
 }
 
 .tech-box .arrow a:hover {
-  background-color: #9d8189;
+  background-color: #fa849a;
 }
 
 @media (max-width: 767px) {
@@ -6671,11 +6680,11 @@ img {
 .main-container .sidebar ul a {
   text-decoration: none;
   text-shadow: 1px 1px #7d7b7a;
-  color: #9d8189;
+  color: #f8f8ff;
 }
 
 .sidebar ul a:hover {
-  color: #d8e2dc;
+  color: #f7a1e9;
 }
 
 .main-container .article {
@@ -6684,7 +6693,7 @@ img {
 }
 
 @media (max-width: 767px) {
-  .sidebar {
+  .main-container .sidebar {
     display: none;
   }
 }

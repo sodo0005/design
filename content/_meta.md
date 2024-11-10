@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/logo_size.png
+Tagline: Aspiring Developer & Designer
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Link till mitt github repo.
+      url: https://github.com/sodo0005/design
       icon: github
+    - title: Link till design kursen.
+      url: https://dbwebb.se/kurser/design-v3
+      icon: laptop
 ---

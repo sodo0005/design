@@ -72,10 +72,12 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: blanchedalmond;
 }
 
 .footer a {
     color: #222;
+    text-decoration: none;
 }
 
 .footer .social {

@@ -4,7 +4,7 @@ Tagline: Aspiring Developer & Designer
 Social:
     - title: Link till mitt github repo.
       url: https://github.com/sodo0005/design
-      icon: github
+      icon: fab fa-github
     - title: Link till design kursen.
       url: https://dbwebb.se/kurser/design-v3
       icon: laptop

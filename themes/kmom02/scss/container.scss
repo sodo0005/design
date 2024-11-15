@@ -1,14 +1,15 @@
-html, body {
-    height: 100%;
-    font-size: 100%;
+html,
+ body {
+  height: 100%;
+  font-size: 100%;
 }
 
 body {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
-    width: 64em;
-    margin: 1.96rem auto;
+  width: 64em;
+  margin: 1.96rem auto;
 }

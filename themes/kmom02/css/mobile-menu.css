@@ -31,11 +31,14 @@
     }
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 770px) {
     .header {
         flex-direction: column;
     }
-    .main
+
+    .nav .hidden {
+        display: none;
+    }
 
     .nav ul {
         flex-direction: column;

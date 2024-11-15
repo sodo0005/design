@@ -6438,7 +6438,8 @@ p {
   letter-spacing: 1px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   font-size: 100%;
 }
@@ -6482,10 +6483,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav a {
-  font-size: 3rem;
 }
 
 .title a {

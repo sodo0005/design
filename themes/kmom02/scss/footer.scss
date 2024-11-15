@@ -1,18 +1,18 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    padding: 2rem;
-    justify-content: space-between;
-    align-items: center;
-    background-color: $footer-color;
-    color: $font-alternative-color;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $footer-color;
+  color: $font-alternative-color;
 
-    .social{ 
-        a {
-            text-decoration: none;
-            font-size: 3rem;
-            color: #fff;
+  .social { 
+    a {
+      text-decoration: none;
+      font-size: 3rem;
+      color: #fff;
         
-        }
-    }   
+    }
+  }   
 }

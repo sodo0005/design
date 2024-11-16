@@ -6,13 +6,17 @@
   align-items: center;
   background-color: $footer-color;
   color: $font-alternative-color;
-
-  .social { 
-    a {
-      text-decoration: none;
-      font-size: 3rem;
-      color: #fff;
-        
-    }
-  }   
 }
+
+.social { 
+  a {
+    text-decoration: none;
+    font-size: 3rem;
+    color: $font-alternative-color;
+  }
+} 
+
+.footer p {
+  color: $font-alternative-color;
+}
+

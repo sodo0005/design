@@ -7,16 +7,45 @@ techs:
       class: css
     - name: HTML
       class: html
-    - name: Javascript
-      class: js
+    - name: SQLite
+      class: sqlite
     - name: PHP
       class: php
     - name: Python
       class: python
-    - name: SQLite
-      class: sqlite
     - name: GIT
       class: git
+    - name: Javascript
+      class: javascript
 ---
-Teknologier
+Teknologier{.landing-title}
 ==========================
+
+<div class="tech-box">
+  <h2><a href="technology/css">CSS</h2>
+</div>
+
+<div class="tech-box">
+  <h2><a href="technology/html">HTML</h2>
+</div>
+
+<div class="tech-box">
+  <h2><a href="technology/sqlite">SQLite</h2>
+</div>
+
+<div class="tech-box">
+  <h2><a href="technology/php">PHP</h2>
+</div>
+
+<div class="tech-box">
+  <h2><a href="technology/python">Python</h2>
+</div>
+
+<div class="tech-box">
+  <h2><a href="technology/git">GIT</h2>
+</div>
+
+<div class="tech-box big">
+  <h2><a href="technology/javascript">Javascript</h2>
+</div>
+

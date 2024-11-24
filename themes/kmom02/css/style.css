@@ -6450,6 +6450,7 @@ body {
 }
 
 .main {
+  flex: 1 0 auto;
   width: 64em;
   margin: 1.96rem auto;
 }
@@ -6557,19 +6558,32 @@ pre code {
   justify-self: center;
 }
 
-.box {
+.landing-page a {
+  text-decoration: none;
+  color: #333;
+}
+
+.tech-box {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid #ccc;
   padding: 1.96rem;
 }
 
-.box:hover {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+.tech-box.big {
+  grid-column: span 3;
+}
+
+.tech-box:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .technology {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: start;
 }
 

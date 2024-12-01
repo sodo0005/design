@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  background-color: $main-background-color;
+  flex: 1 0 auto;
+  width: 64em;
+  margin: 1.96rem auto;
+}

@@ -6,7 +6,7 @@ Description: This is the index page.
 About me
 ==========================
 
-![profilbild](%assets_url%/img/bild-pa-mig.png){.profilbild}
+![profilbild](image/bild-pa-mig.png?width=50%){.profilbild}
 
 
 Hej! Mitt namn är Sophie Gustafsson och bor i Bromma tillsammans med min sambo och två katter. 

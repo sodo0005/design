@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $header-color;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    color: $header-title-color;
+  }
+}
+
+h1 {
+  color: $font-color;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 22px;
+  color: $font-color;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: $font-alternative-color;
+}

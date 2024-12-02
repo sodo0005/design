@@ -1,9 +1,7 @@
-img, embed, object, video {
-  max-width: 100%;
-}
-
 img {
+  max-width: 100%;
   display: block;
+  filter: grayscale(60%) contrast(1.2);
 }
 
 .profilbild {
@@ -13,4 +11,5 @@ img {
   height: 300px;
   max-height: 100%;
   display: block;
+  filter: grayscale(50%) contrast(1.2);
 }

@@ -37,6 +37,18 @@
     .technology .menu {
         display: none;
     }
+    .landing-page {
+         grid-template-areas: 
+        "title title title"
+        "css css css"
+        "html html html"
+        "javascript javascript javascript"
+        "php php php"
+        "python python python"
+        "git git git"
+        "sqlite sqlite sqlite";
+        gap: 0;
+      }
 }
 
 @media (max-width: 770px) {
@@ -64,11 +76,6 @@
         padding: 0.5em 0;
     }
 
-    .landing-page h1,
-    .tech-box,
-    .tech-box.big {
-        grid-column: span 1;
-    }
 
     .js .nav-toggle {
         display: block;

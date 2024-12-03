@@ -3,7 +3,7 @@
   margin-bottom: $magic-number;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
    grid-template-areas: 
   "title title title"
   "css html html"

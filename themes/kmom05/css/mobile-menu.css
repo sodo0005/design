@@ -38,7 +38,8 @@
         display: none;
     }
     .landing-page {
-         grid-template-areas: 
+        gap: 0;
+        grid-template-areas: 
         "title title title"
         "css css css"
         "html html html"
@@ -47,7 +48,15 @@
         "python python python"
         "git git git"
         "sqlite sqlite sqlite";
+      }
+    
+      .analysis-container {
         gap: 0;
+        grid-template-areas: 
+        "title title title"
+        "colors colors colors"
+        "load load load"
+        "design design design"
       }
 }
 

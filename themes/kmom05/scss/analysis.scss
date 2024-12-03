@@ -1,0 +1,44 @@
+.analysis-container {
+  gap: $magic-number $magic-number;
+  margin-bottom: $magic-number;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+    'title title title'
+    'colors load load'
+    'design design design';
+}
+
+.analysis-container h1 {
+  grid-area: title;
+  justify-self: center;
+}
+
+.colors {
+  grid-area: colors;
+}
+
+.load {
+  grid-area: load;
+}
+
+.design-principles {
+  grid-area: design;
+}
+
+.analysis-container a {
+  text-align: center;
+  text-decoration: none;
+  color: $font-color;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: $magic-number;
+}
+
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}

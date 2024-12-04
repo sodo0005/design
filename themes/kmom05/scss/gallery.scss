@@ -1,0 +1,53 @@
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.gallery-container {
+  gap: $magic-number;
+  margin: $magic-number;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+
+.gallery-title {
+  text-align: center;
+  color: $header-title-color;
+}
+
+.gallery-image img {
+  border-radius: 10%;
+}
+
+.gallery-image {
+  border-radius: 10%;
+  transition: 0.5s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: $magic-number;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

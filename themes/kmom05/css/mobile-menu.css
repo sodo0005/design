@@ -58,6 +58,17 @@
         "load load load"
         "design design design"
       }
+
+      .gallery-container {
+        gap: 10px;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+      }
+
+      .gallery-image {
+        max-width: 100%;
+        justify-self: center;
+      }
 }
 
 @media (max-width: 770px) {

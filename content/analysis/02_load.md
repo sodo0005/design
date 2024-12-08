@@ -31,13 +31,19 @@ Resultat
 
 ## Hermés
 
+![Hermés Screenshot](../image/hermes-screenshot.png?width=50%)
+
 Hermés skulle kunna optimera stora bilder/videor och förbättra tillgängligheten ytterligare, t ex genom att lägga till ett lang attribut på html elementet.
 
 ## Louis Vuitton
 
+![Louis Vuitton Screenshot](../image/lv-screenshot.png?width=50%)
+
 Louis Vuitton behöver bland annat fixa sin javascript execution då det tar lång tid - 3,5s, även se över bild/video optimering.
 
 ## Gucci
+
+![Gucci Screenshot](../image/gucci-screenshot.png?width=50%)
 
 Gucci behöver också kolla över sitt javascript då det tar lång tid att exekvera scriptet, samt kolla över CSS kod som inte används och optimera bild/video storlekar.
 

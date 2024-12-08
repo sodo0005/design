@@ -26,6 +26,8 @@ Resultat
 -----------------------
 ## Louis Vuitton
 
+![Louis Vuitton Screenshot](../image/lv-screenshot.png?width=50%)
+
 Färgpaletten på Louis Vuittons webbplats går i vitt, blått svart och brunt vilket ger en känsla av elegans, lugn och harmoni.
 På landningssidan möts man av en stor bild/video av en fint klädd kvinna som sitter på en stor Louis Vuitton koffert och ser ut över havet med en blå himmel.
 
@@ -47,6 +49,8 @@ Jag tycker att webbplatsens färgval och typografi motsvarar den profilen Louis 
 </table>
 
 ## Hermès
+
+![Hermés Screenshot](../image/hermes-screenshot.png?width=50%)
 
 Färgpaletten på Hermès webbplats går också den i vitt, svart, och olika nyanser av blå och brun. 
 
@@ -70,6 +74,8 @@ Jag tycker även här att webbplatsens känsla och det medvetna valet av färg o
 </table>
 
 ## Gucci
+
+![Gucci Screenshot](../image/gucci-screenshot.png?width=50%)
 
 Färgpaletten på Guccis webbplats går i vitt, svart, och olika nyanser av brun, guld och röd. 
 

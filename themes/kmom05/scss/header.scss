@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: $header-color;
+  max-height: 20%;
 }
 
 .site-header {
@@ -20,7 +21,7 @@
   }
 
   h1 {
-    color: $header-title-color;
+    color: $font-color;
   }
 }
 
@@ -28,10 +29,11 @@ h1 {
   color: $font-color;
 }
 
-.nav a {
+.nav ul a {
   text-decoration: none;
-  font-size: 22px;
-  color: $font-color;
+  font-size: 1.4em;
+  color: $header-title-color;
+  font-weight: bolder;
 }
 
 .nav a:hover {

@@ -28,6 +28,7 @@
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+        border: none;
     }
 
     .technology .article {
@@ -75,12 +76,16 @@
         max-height: 100%;
       }
 
+      .fa {
+        font-size: 35px;
+      }
       
 }
 
 @media (max-width: 770px) {
     .header {
         flex-direction: column;
+        max-height: fit-content;
     }
 
     .nav .hidden {

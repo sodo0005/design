@@ -1,5 +1,6 @@
 img {
   display: block;
+  border: 1px solid $font-alternative-color;
 }
 
 .profilbild {
@@ -9,4 +10,8 @@ img {
   height: 300px;
   max-height: 100%;
   display: block;
+}
+
+.logo img {
+  border: 0;
 }
